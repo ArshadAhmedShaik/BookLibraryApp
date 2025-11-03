@@ -1,0 +1,18 @@
+<%- include("./partitions/header.ejs") %>
+    <h1 id="books-heading">
+        <%= book.title %>
+    </h1>
+    <div class="container">
+        <img src="<%= book.image %>" alt="<%= book.title %> poster">
+        <div class = "paras">
+            <p>Title: <%= book.title %>
+            </p>
+            <p>Author: <%= book.author %>
+            </p>
+            <p>Genre: <%= book.genre %>
+            </p>
+            <p>Rating: <%= book.rating %> ⭐</p>
+            <p style="text-align: center; margin-top:2rem;"><a class = "anchor" href="/books">← Go Back</a></p>
+        </div>
+    </div>
+    <%- include("./partitions/footer.ejs") %>

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+#books-heading {
+    margin-top: 2.5rem;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+#books-heading:hover {
+    transform: translateY(0.1rem);
+    color: brown;
+}
+.container {
+    background-color:burlywood;
+    padding: 2rem;
+    display: block;
+    margin: 0 auto;
+    width: 25rem;
+    text-align: center;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+#footer {
+    text-align: center;
+}
+
+#list {
+    margin-bottom: 0.5rem;
+}
+
+.anchor {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+.paras {
+    width: 50%;
+    text-align: start;
+    margin-left: 6rem;
+}
+
+img {
+    width: 50%;
+}

@@ -1,0 +1,17 @@
+<%- include("./partitions/header.ejs") %>
+
+<h1 id="books-heading">List of Books</h1>
+
+<div class="container">
+    <% if (!data1 || data1.length === 0) { %>
+        <p>No books found!</p>
+    <% } else { %>
+        <ol type="1">
+            <% for (let book of data1) { %>
+                <li id="list"><a class = "anchor" href="/books/<%= book.id%>"><%= book.title %></a></li>
+            <% } %>
+        </ol>
+    <% } %>
+</div>
+
+<%- include("./partitions/footer.ejs") %>
